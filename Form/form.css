@@ -1,0 +1,65 @@
+
+
+
+body{
+    
+    background:linear-gradient(to right, purple,rgb(52, 52, 91));
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+
+h1{
+  color: #1ffcfc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.create-form {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.mm {
+  margin: 10px 0px;
+  font-size: 18px;
+}
+
+#username, #number, #emails {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#btn {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#btn:hover {
+  background-color: rgb(19, 212, 174);
+}
